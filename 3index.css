@@ -1,0 +1,13 @@
+.container {
+    border: 5px solid red;
+    display: flex;
+    justify-content: flex-end;/*try change this to center for example*/
+}
+.container > div{
+    padding: 8px;
+    text-align: center;
+    font-size: 14sp;
+    color:black;
+    border: 2px solid;
+    background-color:white
+}
